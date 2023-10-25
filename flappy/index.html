@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Tareas PWA</title>
+</head>
+<body>
+  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Tareas</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+      <div class="tasks">
+        <!-- Campo de entrada para agregar tareas -->
+        <div class="add-task">
+          <input type="text" id="newTask" class="mdl-textfield__input" placeholder="Nueva tarea...">
+          <button id="addTask" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Agregar</button>
+        </div>
+        <div class="task">
+          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="task1">
+            <input type="checkbox" id="task1" class="mdl-checkbox__input">
+            <span class="mdl-checkbox__label">Tarea 1</span>
+          </label>
+          <button class="delete-task mdl-button mdl-js-button mdl-button--icon">
+            <i class="material-icons">delete</i>
+          </button>
+        </div>
+        <!-- Agregar más tareas aquí -->
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

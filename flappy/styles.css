@@ -1,0 +1,20 @@
+.demo-card-wide.mdl-card {
+    width: 512px;
+    margin: 0 auto;
+  }
+  
+  .tasks {
+    margin-top: 20px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
